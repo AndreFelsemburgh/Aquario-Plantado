@@ -1,0 +1,129 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 450px;
+    background-image: url(../img/aquario-plantado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-top: 1px solid transparent;
+}
+
+/* ESTILIZAÇÃO DO TEXTO DO HEADER */
+.hero-texto {
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-texto h1{
+    text-shadow: 3px 3px 2px #000;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+.hero-texto p{
+    display: inline-block;
+    font-size: 25px;
+    background-color: rgba(0,0,0,.5);
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+/* ESTILIZAÇÃO DO MENU */
+.hero nav ul{
+    text-align: right;
+    margin: 30px 25px 0 0;
+}
+
+.hero nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.hero nav a{
+    text-decoration: none;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0,.9)
+}
+
+
+
+/* ESTILIZAÇÃO DO CONTEÚDO PRINCIPAL */
+
+.principal {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.conteudo-principal{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    overflow: auto;
+}
+
+.conteudo-principal h2{
+    padding: 10px 0 5px;
+    margin-top: 0;
+    border-bottom: 1px solid #0e1514;
+}
+
+.fotos{
+    float: left;
+    width: 32%;
+}
+
+.fotos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fotos a:hover{
+    color: #ff0;
+}
+
+.foto1, .foto2 {
+    margin-right: 2%;
+}
+
+.fotos img{
+    width: 100%;
+    display: block;
+}
+
+.fotos p{
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: #fd1818;
+}
+
+.rodape{
+    background-color: #fd1818;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    
+}
